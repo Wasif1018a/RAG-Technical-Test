@@ -1,12 +1,13 @@
 # Offline RAG Pipeline (Tiny RAG)
 
-A lightweight, fully offline RAG-service using Python, Flask, and local LLM (via Ollama).
+A lightweight, fully offline RAG-service using Python, Flask, and local LLM llama3.2:3b (via Ollama).
 
 ## Features
 - **Offline First**: Entirely CPU-friendly and local; no external API calls.
 - **Hybrid Search**: Combines keyword overlap and vector similarity (`sentence-transformers`).
 - **Citation Support**: Precise line-level citations (e.g., `[product: L1]`).
 - **Prompt-Based Defense**: Security instructions embedded in the system prompt to prevent jailbreaks.
+- **llama3.2:3b**: Used for its strong reasoning and comprehension abilities within limited memory while running locally.
 
 ## Design Choices
 - **Hybrid Retrieval**: Chosen to compensate for small vector model limitations by ensuring exact keyword matches are prioritized. 
