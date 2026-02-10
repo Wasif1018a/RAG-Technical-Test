@@ -76,6 +76,7 @@ The system uses a weighted combination of two search methods to find the most re
    ```
 
 ## Future Improvements
+- **VectorDB Setup**: For large documents storage.
 - **Conversation Buffer Memory**: Integrating a memory module to allow the model to remember previous turns in a multi-turn chat.
 - **LangChain/LangGraph**: Transitioning to an orchestration framework for multi-agent support and low-code scalability.
 
