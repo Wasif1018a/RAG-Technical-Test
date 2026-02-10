@@ -48,7 +48,28 @@ The system uses a weighted combination of two search methods to find the most re
    python server.py
    ```
 
-4. **Verification**:
+5. **Testing the API**:
+
+   ### Option 1: cURL
+   ```bash
+   curl -X POST http://localhost:8000/ask \
+        -H "Content-Type: application/json" \
+        -d '{"question": "", "top_k": 3}'
+   ```
+
+   ### Option 2: Postman
+   1. Set request type to **POST**.
+   2. Enter URL: `http://localhost:8000/ask`.
+   3. In the **Headers** tab, add `Content-Type: application/json`.
+   4. In the **Body** tab, select **raw** and **JSON**, then enter:
+      ```json
+      {
+          "question": "",
+          "top_k": 3
+      }
+      ```
+
+6. **Verification**:
    ```bash
    # Runs a test suite against the live server
    python verify.py
