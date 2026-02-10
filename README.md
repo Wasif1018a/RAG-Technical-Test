@@ -83,4 +83,4 @@ The system uses a weighted combination of two search methods to find the most re
 ## AI Usage Disclosure
 This repository was developed with Google's AntiGravity AI assistance used for:
 - **Repo Structuring**: Scaffolding the codebase with appropriate files and folders.
-- **Boilerplate Implementation**: Creating dummy classes and functions as a starting point for further manual implementation.
+- **Boilerplate Implementation**: Creating dummy classes and functions as a starting point for further implementation.
