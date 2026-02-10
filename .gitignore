@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Local model storage
+models/
+local_models/
+
+# Logs and outputs
+*.log
+debug_output.txt
+verify_refactor.txt
+verify_output.txt
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
