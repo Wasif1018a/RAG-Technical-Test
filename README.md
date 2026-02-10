@@ -84,4 +84,4 @@ The system uses a weighted combination of two search methods to find the most re
 This repository was developed with Google's AntiGravity AI assistance used for:
 - **Repo Structuring**: Scaffolding the codebase with appropriate files and folders.
 - **Boilerplate Implementation**: Creating dummy classes and functions as a starting point for further implementation.
-- *Debugging and Code Quality*: Used as a support tool for debugging and improving code quality.
+- **Debugging and Code Quality**: Used as a support tool for debugging and improving code quality.
